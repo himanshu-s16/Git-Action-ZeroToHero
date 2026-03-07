@@ -9,7 +9,7 @@ on:
         options:
           - dev
           - prod
-          -staging
+          - staging
 
 jobs:
 
