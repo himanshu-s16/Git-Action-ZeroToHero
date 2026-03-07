@@ -4,6 +4,12 @@ name: CICD
 # Manual trigger workflow whenever user needed.
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        options:
+          - dev
+          - prod
+          -staging
 
 jobs:
 
