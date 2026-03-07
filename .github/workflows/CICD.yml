@@ -6,6 +6,8 @@ on:
   workflow_dispatch:
     inputs:
       environment:
+        description: This is environment where this workflow runs
+        type: choice
         options:
           - dev
           - prod
